@@ -17,17 +17,21 @@ First five datasamples:<br>
 |Type 1   |Type 2   |Total   |HP   | Attack |Defense |Sp. Atk |Sp. Def |Speed |Legendary 
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |Grass | Poison| 318| 45| 49|49|65|65|45|FALSE
+|Grass | Poison| 405| 60| 62|63|80|80|60|FALSE
+|Grass | Poison| 525| 80| 82|83|100|100|80|FALSE
+|Grass | Poison| 625| 80| 100|123|122|120|80|FALSE
+|Fire | None| 309| 39| 52|43|60|50|65|FALSE
 
 
 Last five datasamples (as of 5/7/20): <br>
 
-|date   |state   |cases   |deaths   | cases_per_capita |deaths_per_capita |state_population
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|2020-05-07|	Virginia	|21570	|769	|252.7	|9.0	|8535519
-|2020-05-07| 	Washington|	17334|	903|	227.6|	11.9|	7614893
-|2020-05-07|	West Virginia|	1297|	51|	72.4|	2.9|	1792147
-|2020-05-07|	Wisconsin|	9215|	374|	158.3|	6.4|	5822434
-|2020-05-07|	Wyoming|	635|	7	|109.7|	1.2|	578759
+|Type 1   |Type 2   |Total   |HP   | Attack |Defense |Sp. Atk |Sp. Def |Speed |Legendary 
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|Grass | Poison| 318| 45| 49|49|65|65|45|FALSE
+|Grass | Poison| 405| 60| 62|63|80|80|60|FALSE
+|Grass | Poison| 525| 80| 82|83|100|100|80|FALSE
+|Grass | Poison| 625| 80| 100|123|122|120|80|FALSE
+|Fire | None| 309| 39| 52|43|60|50|65|FALSE
 
 
 
