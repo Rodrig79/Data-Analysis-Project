@@ -1,26 +1,23 @@
-<h2>CPSC-4310 Machine Learning Data Analysis Project - Assignment 2</h2><br>
+<h2>CPSC-4310 Machine Learning Data Analysis Project</h2><br>
 Team Members:<br>
 Marco Rodriguez, 
 Shaun Lee 
 <br>
-<h1> New York Times Coronavirus (COVID-19) Data in the United States (Dataset #1) </h1><br>
-Description: This dataset has the cumulative counts of coronavirus cases in the United States, at the state and county level, over time. This data is taken from state and local governments and health departments in order to provide a complete record of the outbreak in the United States.<br>
+<h1> Pokemon Dataset </h1><br>
+Description: This dataset has all Pokemon up to Generation 6. The dataset includes each Pokemon along with their stats used to calculate damage taken and given in battle. <br>
 <br>
 Size of dataset: <br>
-Instances (Rows): 3549<br>
-Attributes (Columns): 7<br>
+Instances (Rows): 801<br>
+Attributes (Columns): 10<br>
 <br>
 <h3>Data Samples:</h3><br>
 First five datasamples:<br>
 
 
-|date   |state   |cases   |deaths   | cases_per_capita |deaths_per_capita |state_population
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|2020-01-21|	Washington|	1|	0|	0.0| 0.0| 7614893
-|2020-01-21|	Washington|	1|	0|	0.0| 0.0| 7614893
-|2020-01-21|	Washington|	1|	0|	0.0| 0.0| 7614893
-|2020-01-21|	Washington|	1|	0|	0.0| 0.0| 7614893
-|2020-01-21|	Washington|	1|	0|	0.0| 0.0| 7614893
+|Type 1   |Type 2   |Total   |HP   | Attack |Defense |Sp. Atk |Sp. Def |Speed |Legendary 
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|Grass | Poison| 318| 45| 49|49|65|65|45|FALSE
+
 
 Last five datasamples (as of 5/7/20): <br>
 
