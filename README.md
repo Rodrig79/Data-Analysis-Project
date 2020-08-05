@@ -34,66 +34,24 @@ Last five datasamples: <br>
 |Fire	|Water	|600	|80	|110	|120	|130	|90	|70	|TRUE
 
 
-
-
 <h3>Attributes:</h3>
-Date: date of confirmed cases and deaths. We changed the format from the raw data to make data visualization easier.
+Type 1: The first type of the Pokemon. Types are used to determine which Pokemon have an advantage over other types. For example, Water type Pokemone do increased damage to Fire type pokemon.
 
-State: US State of confirmed cases and deaths
+Type 2: The second type of the Pokemon. Not all Pokemon have a secondary type.
 
-Cases: Cumulative cases of COVID-19 to date.
+Total: The sum of all of the other stats. HP + ATK + DEF + Sp.ATK + SP. Def + Speed = Total
 
-Deaths: Cumulative deaths from COVID-19 to date.
+HP: The Pokemon's base Hitpoints. This is what the Pokemon's initial HP will be, it can increase as it levels up.
 
-Cases Per Capita: We used an function to take the number of cases divided by the state's population, then multiplied that value by 100,000 to obtain the cases per capita for that row. Cases per capita = (Cases/State Population) * 100,000 
+Attack: The Pokemon's base Attack stat.
 
-Deaths Per Capita: Used the same function as cases per capita Deaths per capita = (Deaths/State Population) * 100,000 
+Defense: The Pokemon's base Defense stat.
 
-Population: Estimated state population in 2019. Used to calculate Cases and Deaths per capita.
+Sp.Atk: The Pokemon's base Sp. Attack stat.
 
+Sp.Def: The Pokemon's base Sp. Defense stat.
 
+Speed: The Pokemon's base Speed stat.
 
-<h1> State Action on Coronavirus (Dataset #2) </h1><br>
-Description: This dataset showcases state legislative action towards containing the COVID-19 outbreak. <br>
-<br>
-Size of dataset:<br>
-Instances (Rows): 579<br>
-Attributes (Columns): 3<br>
-<br>
-<h3>Data Samples:</h3><br>
-
-First five datasamples:<br>
-|State|Enacted|Date_Enactment|Economy|Health|Bill_Summary
-|:-:|:-:|:-:|:-:|:-:|:-:|
-|Alabama	|TRUE	|2020-04-02	|FALSE	|TRUE|SJR 40  Urges individuals to fist bump rather than shake hands. Enacted.| 
-|Alabama	|TRUE	|2020-03-12	|TRUE	|TRUE|SR 49  Urges Congress to fund additional rental assistance due to coronavirus. Adopted.|
-|Alabama	|TRUE	|2020-05-05	|FALSE	|FALSE|SR 60  Relates to no excuse absentee voting, Legislature urged to adopt. Adopted.|
-|Alabama	|FALSE	|NA	|FALSE	|TRUE|HR 107  Urges the promotion, sharing and posting of practices to reduce the spread of infectious diseases. Pending.|
-|Alabama	|FALSE	|NA	|TRUE	|TRUE	|HJR 121/HJR 122  Urges the Governor to expand Medicaid coverage for new mothers in response to the current COVID-19 pandemic. Pending.|
-
-
-
-Last five datasamples (as of 5/7/20): <br>
-
-|State|Enacted|Date_Enactment|Economy|Health|Bill_Summary
-|:-:|:-:|:-:|:-:|:-:|:-:|
-|Washington	|TRUE	|2020-03-17	|TRUE	|TRUE	|SB 6189  Clarifies eligibility for School Employees' Benefits Board coverage of substitute teachers; and of school employees during quarantine or school closures due to COVID-19. Enacted.|
-|Wisconsin	|FALSE	|NA	|FALSE	|FALSE	|SR 7  Acknowledges that the Communist Party of China deliberately and intentionally misled the world on the Wuhan Coronavirus; stands in solidarity with the Chinese people to condemn the actions of the Communist Party of China. Failed.|
-|Wisconsin	|FALSE	|NA	|TRUE	|TRUE	|SB 927  Exempts pharmaceutical, treatment, and other medical supplies used for treating coronavirus from the Unfair Sales Act, also called the minimum markup law, during the public health emergency due to coronavirus. Failed.|
-|Wisconsin	|FALSE	|NA	|TRUE	|TRUE	|AB 1035  Exempts pharmaceutical, treatment, and other medical supplies used for treating COVID-19 from the Unfair Sales Act, also called the minimum markup law, during the public health emergency declared on March 12, 2020. Failed.|
-|Wisconsin	|TRUE	|2020-04-15	|TRUE	|TRUE	|AB 1038  Relates to the state government response to the coronavirus pandemic; authorizes limited autopsies for the death of an inmate due to COVID-19; establishes a civil liability exemption for persons who manufacture, distribute or sell emergency medical supplies to respond to the public health emergency. Enacted.|
-
-<h3>Attributes:</h3>
-State: US State where the bill is proposed.
-
-Enacted: If the proposed bill was signed into law.
-
-Date_Enactment:  Date of when the bill was passed.
-
-Economy: If the bill is related to the economy. Can be True or False. Is determined through a function that scans the bill summary for keywords related to the economy.
-
-Health: If the bill is related to public health. Can be True or False. Is determined through a function that scans the bill summary for keywords related to public health.
-
-Bill Summary: A brief summary of the proposed bill.
-
+Legendary: True or False, whether the Pokemon is legendary or not.
 
