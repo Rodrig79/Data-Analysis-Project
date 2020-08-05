@@ -23,15 +23,15 @@ First five datasamples:<br>
 |Fire | None| 309| 39| 52|43|60|50|65|FALSE
 
 
-Last five datasamples (as of 5/7/20): <br>
+Last five datasamples: <br>
 
 |Type 1   |Type 2   |Total   |HP   | Attack |Defense |Sp. Atk |Sp. Def |Speed |Legendary 
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|Grass | Poison| 318| 45| 49|49|65|65|45|FALSE
-|Grass | Poison| 405| 60| 62|63|80|80|60|FALSE
-|Grass | Poison| 525| 80| 82|83|100|100|80|FALSE
-|Grass | Poison| 625| 80| 100|123|122|120|80|FALSE
-|Fire | None| 309| 39| 52|43|60|50|65|FALSE
+|Rock | Fairy| 600| 50| 100|150|100|150|50|TRUE
+|Rock	|Fairy|	700|	50|	160|	110|	160|	110|	110|	TRUE
+|Psychic	|Ghost	|600	|80	|110	|60	|150	|130	|70	|TRUE
+|Psychic	|Dark	|680	|80	|160	|60	|170	|130	|80	|TRUE
+|Fire	|Water	|600	|80	|110	|120	|130	|90	|70	|TRUE
 
 
 
