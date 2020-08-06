@@ -1,98 +1,57 @@
-<h2>CPSC-4310 Machine Learning Data Analysis Project - Assignment 2</h2><br>
+<h2>CPSC-4310 Machine Learning Data Analysis Project</h2><br>
 Team Members:<br>
 Marco Rodriguez, 
 Shaun Lee 
 <br>
-<h1> New York Times Coronavirus (COVID-19) Data in the United States (Dataset #1) </h1><br>
-Description: This dataset has the cumulative counts of coronavirus cases in the United States, at the state and county level, over time. This data is taken from state and local governments and health departments in order to provide a complete record of the outbreak in the United States.<br>
+<h1> Pokemon Dataset </h1><br>
+Description: This dataset has all Pokemon up to Generation 6. The dataset includes each Pokemon along with their stats used to calculate damage taken and given in battle. <br>
 <br>
 Size of dataset: <br>
-Instances (Rows): 3549<br>
-Attributes (Columns): 7<br>
+Instances (Rows): 801<br>
+Attributes (Columns): 10<br>
 <br>
 <h3>Data Samples:</h3><br>
 First five datasamples:<br>
 
 
-|date   |state   |cases   |deaths   | cases_per_capita |deaths_per_capita |state_population
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|2020-01-21|	Washington|	1|	0|	0.0| 0.0| 7614893
-|2020-01-21|	Washington|	1|	0|	0.0| 0.0| 7614893
-|2020-01-21|	Washington|	1|	0|	0.0| 0.0| 7614893
-|2020-01-21|	Washington|	1|	0|	0.0| 0.0| 7614893
-|2020-01-21|	Washington|	1|	0|	0.0| 0.0| 7614893
-
-Last five datasamples (as of 5/7/20): <br>
-
-|date   |state   |cases   |deaths   | cases_per_capita |deaths_per_capita |state_population
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|2020-05-07|	Virginia	|21570	|769	|252.7	|9.0	|8535519
-|2020-05-07| 	Washington|	17334|	903|	227.6|	11.9|	7614893
-|2020-05-07|	West Virginia|	1297|	51|	72.4|	2.9|	1792147
-|2020-05-07|	Wisconsin|	9215|	374|	158.3|	6.4|	5822434
-|2020-05-07|	Wyoming|	635|	7	|109.7|	1.2|	578759
+|Type 1   |Type 2   |Total   |HP   | Attack |Defense |Sp. Atk |Sp. Def |Speed |Legendary 
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|Grass | Poison| 318| 45| 49|49|65|65|45|FALSE
+|Grass | Poison| 405| 60| 62|63|80|80|60|FALSE
+|Grass | Poison| 525| 80| 82|83|100|100|80|FALSE
+|Grass | Poison| 625| 80| 100|123|122|120|80|FALSE
+|Fire | None| 309| 39| 52|43|60|50|65|FALSE
 
 
+Last five datasamples: <br>
+
+|Type 1   |Type 2   |Total   |HP   | Attack |Defense |Sp. Atk |Sp. Def |Speed |Legendary 
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|Rock | Fairy| 600| 50| 100|150|100|150|50|TRUE
+|Rock	|Fairy|	700|	50|	160|	110|	160|	110|	110|	TRUE
+|Psychic	|Ghost	|600	|80	|110	|60	|150	|130	|70	|TRUE
+|Psychic	|Dark	|680	|80	|160	|60	|170	|130	|80	|TRUE
+|Fire	|Water	|600	|80	|110	|120	|130	|90	|70	|TRUE
 
 
 <h3>Attributes:</h3>
-Date: date of confirmed cases and deaths. We changed the format from the raw data to make data visualization easier.
+Type 1: The first type of the Pokemon. Types are used to determine which Pokemon have an advantage over other types. For example, Water type Pokemone do increased damage to Fire type pokemon.
 
-State: US State of confirmed cases and deaths
+Type 2: The second type of the Pokemon. Not all Pokemon have a secondary type.
 
-Cases: Cumulative cases of COVID-19 to date.
+Total: The sum of all of the other stats. HP + ATK + DEF + Sp.ATK + SP. Def + Speed = Total
 
-Deaths: Cumulative deaths from COVID-19 to date.
+HP: The Pokemon's base Hitpoints. This is what the Pokemon's initial HP will be, it can increase as it levels up.
 
-Cases Per Capita: We used an function to take the number of cases divided by the state's population, then multiplied that value by 100,000 to obtain the cases per capita for that row. Cases per capita = (Cases/State Population) * 100,000 
+Attack: The Pokemon's base Attack stat.
 
-Deaths Per Capita: Used the same function as cases per capita Deaths per capita = (Deaths/State Population) * 100,000 
+Defense: The Pokemon's base Defense stat.
 
-Population: Estimated state population in 2019. Used to calculate Cases and Deaths per capita.
+Sp.Atk: The Pokemon's base Sp. Attack stat.
 
+Sp.Def: The Pokemon's base Sp. Defense stat.
 
+Speed: The Pokemon's base Speed stat.
 
-<h1> State Action on Coronavirus (Dataset #2) </h1><br>
-Description: This dataset showcases state legislative action towards containing the COVID-19 outbreak. <br>
-<br>
-Size of dataset:<br>
-Instances (Rows): 579<br>
-Attributes (Columns): 3<br>
-<br>
-<h3>Data Samples:</h3><br>
-
-First five datasamples:<br>
-|State|Enacted|Date_Enactment|Economy|Health|Bill_Summary
-|:-:|:-:|:-:|:-:|:-:|:-:|
-|Alabama	|TRUE	|2020-04-02	|FALSE	|TRUE|SJR 40  Urges individuals to fist bump rather than shake hands. Enacted.| 
-|Alabama	|TRUE	|2020-03-12	|TRUE	|TRUE|SR 49  Urges Congress to fund additional rental assistance due to coronavirus. Adopted.|
-|Alabama	|TRUE	|2020-05-05	|FALSE	|FALSE|SR 60  Relates to no excuse absentee voting, Legislature urged to adopt. Adopted.|
-|Alabama	|FALSE	|NA	|FALSE	|TRUE|HR 107  Urges the promotion, sharing and posting of practices to reduce the spread of infectious diseases. Pending.|
-|Alabama	|FALSE	|NA	|TRUE	|TRUE	|HJR 121/HJR 122  Urges the Governor to expand Medicaid coverage for new mothers in response to the current COVID-19 pandemic. Pending.|
-
-
-
-Last five datasamples (as of 5/7/20): <br>
-
-|State|Enacted|Date_Enactment|Economy|Health|Bill_Summary
-|:-:|:-:|:-:|:-:|:-:|:-:|
-|Washington	|TRUE	|2020-03-17	|TRUE	|TRUE	|SB 6189  Clarifies eligibility for School Employees' Benefits Board coverage of substitute teachers; and of school employees during quarantine or school closures due to COVID-19. Enacted.|
-|Wisconsin	|FALSE	|NA	|FALSE	|FALSE	|SR 7  Acknowledges that the Communist Party of China deliberately and intentionally misled the world on the Wuhan Coronavirus; stands in solidarity with the Chinese people to condemn the actions of the Communist Party of China. Failed.|
-|Wisconsin	|FALSE	|NA	|TRUE	|TRUE	|SB 927  Exempts pharmaceutical, treatment, and other medical supplies used for treating coronavirus from the Unfair Sales Act, also called the minimum markup law, during the public health emergency due to coronavirus. Failed.|
-|Wisconsin	|FALSE	|NA	|TRUE	|TRUE	|AB 1035  Exempts pharmaceutical, treatment, and other medical supplies used for treating COVID-19 from the Unfair Sales Act, also called the minimum markup law, during the public health emergency declared on March 12, 2020. Failed.|
-|Wisconsin	|TRUE	|2020-04-15	|TRUE	|TRUE	|AB 1038  Relates to the state government response to the coronavirus pandemic; authorizes limited autopsies for the death of an inmate due to COVID-19; establishes a civil liability exemption for persons who manufacture, distribute or sell emergency medical supplies to respond to the public health emergency. Enacted.|
-
-<h3>Attributes:</h3>
-State: US State where the bill is proposed.
-
-Enacted: If the proposed bill was signed into law.
-
-Date_Enactment:  Date of when the bill was passed.
-
-Economy: If the bill is related to the economy. Can be True or False. Is determined through a function that scans the bill summary for keywords related to the economy.
-
-Health: If the bill is related to public health. Can be True or False. Is determined through a function that scans the bill summary for keywords related to public health.
-
-Bill Summary: A brief summary of the proposed bill.
-
+Legendary: True or False, whether the Pokemon is legendary or not.
 
