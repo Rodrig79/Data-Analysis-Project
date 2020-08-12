@@ -52,39 +52,24 @@ HP: The Pokemon's base Hitpoints. This is what the Pokemon's initial HP will be,
 -Min:1
 -Max:255
 
-Attack: The Pokemon's base Attack stat.
--Mean:79
--Mode:100
--Min:5
--Max:190
+Attack: The Pokemon's base Attack stat.<br>
+(Mean:79, Mode:100, Min:5, Max:190)<br>
 
 
-Defense: The Pokemon's base Defense stat.
--Mean:73.8425
--Mode:70
--Min:5
--Max:230
+Defense: The Pokemon's base Defense stat.<br>
+(Mean:73.8425 Mode:70 Min:5 Max:230)<br>
 
 
-Sp.Atk: The Pokemon's base Sp. Attack stat.
--Mean:72.82
--Mode:60
--Min:10
--Max:194
+Sp.Atk: The Pokemon's base Sp. Attack stat.<br>
+(Mean:72.82 Mode:60 Min:10 Max:194)<br>
 
 
-Sp.Def: The Pokemon's base Sp. Defense stat.
--Mean:71.9
--Mode:80
--Min: 20
--Max:230
+Sp.Def: The Pokemon's base Sp. Defense stat.<br>
+(Mean:71.9 Mode:80 Min: 20 Max:230)<br>
 
 
-Speed: The Pokemon's base Speed stat.
--Mean:68.2
--Mode:50
--Min:5
--Max:180
+Speed: The Pokemon's base Speed stat.<br>
+(Mean:68.2 Mode:50 Min:5 Max:180)<br>
 
 
 Legendary: True or False, whether the Pokemon is legendary or not.
