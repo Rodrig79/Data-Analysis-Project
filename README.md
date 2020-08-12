@@ -42,30 +42,40 @@ Type 2: The second type of the Pokemon. Not all Pokemon have a secondary type.
 Total: The sum of all of the other stats. HP + ATK + DEF + Sp.ATK + SP. Def + Speed = Total<br>
 (Mean: 869 Mode: 600 Min: 180 Max:780)
 Standard Deviation: 119.89
+Range: 700
+
 
 HP: The Pokemon's base Hitpoints. This is what the Pokemon's initial HP will be, it can increase as it levels up.<br>
 (Mean:62.26 Mode:60 Min:1 Max:255)
 Standard Deviation: 25.52
+Range: 244
+
 
 Attack: The Pokemon's base Attack stat.<br>
 (Mean:79, Mode:100, Min:5, Max:190)<br>
 Standard Deviation: 32.4
+Range: 185
+
 
 Defense: The Pokemon's base Defense stat.<br>
 (Mean:73.8425 Mode:70 Min:5 Max:230)<br>
 Standard Deviation:31.16
+Range: 225
 
 Sp.Atk: The Pokemon's base Sp. Attack stat.<br>
 (Mean:72.82 Mode:60 Min:10 Max:194)<br>
 Standard Deviation:32.7
+Range: 184
 
 Sp.Def: The Pokemon's base Sp. Defense stat.<br>
 (Mean:71.9 Mode:80 Min: 20 Max:230)<br>
 Standard Deviation:27.81
+Range: 210
 
 Speed: The Pokemon's base Speed stat.<br>
 (Mean:68.2 Mode:50 Min:5 Max:180)<br>
 Standard Deviation: 29.04
+Range: 175
 
 Legendary: True or False, whether the Pokemon is legendary or not.
 
