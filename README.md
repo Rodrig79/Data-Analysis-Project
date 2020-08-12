@@ -34,24 +34,58 @@ Last five datasamples: <br>
 |Fire	|Water	|600	|80	|110	|120	|130	|90	|70	|TRUE
 
 
-<h3>Attributes:</h3>
+<h3>Attributes with their Central Tendencies and Dispersion:</h3>
 Type 1: The first type of the Pokemon. Types are used to determine which Pokemon have an advantage over other types. For example, Water type Pokemone do increased damage to Fire type pokemon.
 
 Type 2: The second type of the Pokemon. Not all Pokemon have a secondary type.
 
 Total: The sum of all of the other stats. HP + ATK + DEF + Sp.ATK + SP. Def + Speed = Total
+-Mean: 869
+-Mode: 600
+-Min: 180
+-Max:780
+
 
 HP: The Pokemon's base Hitpoints. This is what the Pokemon's initial HP will be, it can increase as it levels up.
+-Mean:62.26
+-Mode:60
+-Min:1
+-Max:255
 
 Attack: The Pokemon's base Attack stat.
+-Mean:79
+-Mode:100
+-Min:5
+-Max:190
+
 
 Defense: The Pokemon's base Defense stat.
+-Mean:73.8425
+-Mode:70
+-Min:5
+-Max:230
+
 
 Sp.Atk: The Pokemon's base Sp. Attack stat.
+-Mean:72.82
+-Mode:60
+-Min:10
+-Max:194
+
 
 Sp.Def: The Pokemon's base Sp. Defense stat.
+-Mean:71.9
+-Mode:80
+-Min: 20
+-Max:230
+
 
 Speed: The Pokemon's base Speed stat.
+-Mean:68.2
+-Mode:50
+-Min:5
+-Max:180
+
 
 Legendary: True or False, whether the Pokemon is legendary or not.
 
